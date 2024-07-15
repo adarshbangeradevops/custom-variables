@@ -10,7 +10,7 @@ jobs:
     -  name: Check out repository codes
        uses: actions/checkout@v4.1.7
     -  name: Read Secret
-       uses: echo $ {{ env.API_KEY }}
+       uses: echo "$ {{ env.API_KEY }}"
     -  name: Get Python Version
        run: python --version
     -  name: Run Script
