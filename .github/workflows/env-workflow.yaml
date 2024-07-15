@@ -7,7 +7,7 @@ jobs:
   Run-Python-Script:
     runs-on: ubuntu-latest
     steps:
-    -  name: Check out repository code
+    -  name: Check out repository codes
        uses: actions/checkout@v4.1.7
     -  name: Read Secret
        uses: echo $ {{ env.API_KEY }}
